@@ -1,0 +1,54 @@
+<svg width="105" height="31" viewBox="0 0 105 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Page 1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(47 -14932)" figma:type="canvas">
+<g id="Page 1" figma:type="frame">
+<g id="Fill 1" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-1.79307 14943.5)" fill="#FFFFFF"/>
+</g>
+<g id="Group 12" figma:type="frame">
+<g id="Fill 2" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(28.909 14943.5)" fill="#FFFFFF"/>
+</g>
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Clip 5" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-47 14932.5)"/>
+</g>
+</mask>
+<g id="Fill 4" mask="url(#mask0_outline)" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(-1.75922 14932.6)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 6" mask="url(#mask0_outline)" figma:type="vector">
+<use xlink:href="#path4_fill" transform="translate(28.8722 14932.5)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 7" mask="url(#mask0_outline)" figma:type="vector">
+<use xlink:href="#path5_fill" transform="translate(-34.361 14932.6)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 8" mask="url(#mask0_outline)" figma:type="vector">
+<use xlink:href="#path6_fill" transform="translate(-34.3798 14943.5)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 9" mask="url(#mask0_outline)" figma:type="vector">
+<use xlink:href="#path7_fill" transform="translate(-14.2914 14943.5)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 10" mask="url(#mask0_outline)" figma:type="vector">
+<use xlink:href="#path8_fill" transform="translate(-47 14943.5)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 11" mask="url(#mask0_outline)" figma:type="vector">
+<use xlink:href="#path9_fill" transform="translate(-46.9284 14932.7)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 0 19.4359L 13.8299 19.4359L 27.2962 19.4359L 27.2962 11.2661L 8.94961 11.2661L 8.94961 7.22463L 27.2913 7.22463L 27.2913 0L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 28.8455 0C 28.4255 4.18881 24.967 7.09139 20.0632 7.33667C 17.5197 7.46339 14.9652 7.3693 12.4163 7.37474C 11.5238 7.37637 10.6318 7.37474 9.43414 7.37474L 9.43414 19.3418L 0 19.3418L 0 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 30.3871L 104.819 30.3871L 104.819 0L 0 0L 0 30.3871Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 0 7.18058L 27.318 7.18058L 27.318 0L 0 0L 0 7.18058Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0 7.21626L 0 0.0688606C 7.39648 0.0688606 14.6672 -0.132367 21.9188 0.153159C 25.5724 0.296738 28.3916 3.50551 28.9472 7.21626L 0 7.21626Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 28.6727 7.24217L 0 7.24217L 0 0.108366C 7.21383 0.108366 14.3741 -0.200546 21.49 0.224752C 25.7075 0.476559 28.2565 3.51075 28.6727 7.24217Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 0 19.2945L 9.22961 19.2945L 9.22961 0L 0 0L 0 19.2945Z"/>
+<path id="path7_fill" fill-rule="evenodd" d="M 0 19.338L 8.63242 19.338L 8.63242 0L 0 0L 0 19.338Z"/>
+<path id="path8_fill" fill-rule="evenodd" d="M 0 19.3108L 8.58648 19.3108L 8.58648 0L 0 0L 0 19.3108Z"/>
+<path id="path9_fill" fill-rule="evenodd" d="M 0 7.07453L 8.6007 7.07453L 8.6007 0L 0 0L 0 7.07453Z"/>
+</defs>
+</svg>

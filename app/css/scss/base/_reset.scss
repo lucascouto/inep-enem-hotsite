@@ -1,0 +1,37 @@
+body {
+  overflow-x: hidden; 
+}
+
+*, h1{
+	//reset margin, padding, border.
+  margin: 0;
+	padding: 0;
+	border: 0;
+  outline: 0;
+  
+  
+
+  //reset font
+  font-size: 100%;
+
+  //reset line
+  vertical-align: baseline;
+  line-height: 1;
+
+  //reset list
+  list-style: none;
+
+  //reset table properties
+  border-collapse: separate;
+  border-spacing: 0;
+  
+  //reset pseudo class and cotes
+  &::before, &::after{
+    content: "";
+  }
+	&::focus, &::hover, &::active, &::visited, a::focus, a::hover, a::active, a::visited{
+  	outline: 0;
+    text-decoration: none;
+	}
+  quotes: "" "";
+}

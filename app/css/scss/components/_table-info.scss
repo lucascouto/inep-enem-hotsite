@@ -1,0 +1,23 @@
+.table-info {
+	color: #999999;
+	margin-top: 15px;
+    text-align: left;
+    width: 100%;
+    thead {
+	    tr {
+	    	border-bottom: 2px solid #999999;	    	
+	    }
+	    th {
+	    	padding: 15px;
+	    }
+    }
+    tbody {
+    	tr {
+    		border-bottom: 1px solid #999999;
+    	}
+    	td {
+    		padding: 15px;
+    		line-height: normal;
+    	}
+    }
+}

@@ -1,0 +1,85 @@
+@charset 'utf-8';
+
+/* Vendor tools is frameworks, libraries, helpers, and others. */
+
+//Vendor
+
+//@import "vendor/__vendor-dir";
+
+//---------------------------------------------//
+
+/* Abstracts are helper functions and non–output snippets only.
+Font-face imports, reusable mixins, global variables, colors, etc. */
+
+//Abstracts
+@import "bootstrap/css/bootstrap.min.css";
+
+@import "abstracts/fonts";
+
+@import "abstracts/mixins";
+
+@import "abstracts/colors";
+
+// @import "abstracts/variables";
+
+//---------------------------------------------//
+
+/*
+Base is used to contain all base imports.
+Files can contain global styles used in the project.
+*/
+
+//Base
+
+@import "base/reset";
+
+@import "base/semantic-tags";
+
+@import "base/typography";
+
+//---------------------------------------------//
+
+/*
+This file is used to contain all component imports.
+Files inside this folder should contain all styles relating to a reusable component.
+*/
+
+//Elements
+//@import "elements/wrapper";
+
+// @import "elements/button";
+
+// @import "elements/input";
+
+// @import "elements/form";
+
+// @import "elements/label";
+
+// @import "elements/text";
+
+//---------------------------------------------//
+
+/*
+Components is used to contain all component imports.
+Files inside this folder can contain specific element styles and layout.
+*/
+
+//Components
+@import "components/header";
+
+@import "components/main-navigation";
+
+@import "components/header-navigation";
+
+@import "components/conteudo";
+
+@import "components/footer";
+
+@import "components/month";
+
+@import "components/table-info";
+
+
+// @import "components/footer";
+
+// @import "components/content";

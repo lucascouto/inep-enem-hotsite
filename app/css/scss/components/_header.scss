@@ -1,0 +1,104 @@
+header#header{
+  @include linear-gradient(45deg, #409B7F 0%, #26B58A 20%, #16CA94 40%, #0CCC93 75%, #00D998 100%);
+  height: calc(100vh - 14rem);
+  min-height: 44rem;
+
+  & > div:after {
+    background: url(images/inep_boy_art.svg) no-repeat;
+    background-position: 100% 100%;
+    background-size: 48rem;
+    content: "";
+    height: calc(100vh - 14rem);
+    min-height: 44rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    @media (max-width: 320px) {
+      background-size: 25rem;
+      min-height: 40rem;
+      right: 3rem;
+      top: -10rem;
+    }
+  }
+
+
+
+
+
+
+  #logo{
+    background: url("images/inep_logo.svg") no-repeat left center;
+    background-size: contain;
+    width: 17.6rem;
+    height: 4.2vw;
+    margin-top: 7.4vh;
+    @media (max-width: 320px) {
+      background: url("images/inep_logo_responsive.svg") no-repeat left center;
+      margin-top: 7.4vh;
+      background-color: #409B7F;
+      height: 55px;
+      width: 100%;
+      position: absolute;
+      right: 0;
+      margin: 0;            
+    }
+  }
+  h1{
+  	color: $light-font-color;
+    font-size: 3.5vw;
+    margin-top: 8.5vw;
+    letter-spacing: -2.3px;
+    span{
+      font-weight: 300;
+      display: block;
+    }
+    @media (max-width: 320px) {
+      font-size: 10vw;
+      text-align: center;
+    }
+  }
+  .banner-link-list {
+    margin-top: 4.6vh;
+
+    li {
+      margin-bottom: 1.2vh;
+      a {
+        color: $dark-font-color-button;
+        display: block;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: -1.3px;
+        text-align: left;
+        
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      &:nth-child(1) a {
+        background: url(images/btn_bk_art1.svg) no-repeat left;
+        background-size: contain;
+        padding: 1.3rem 1.3rem 1.3rem 8.3rem;
+
+        width: 29.4rem;
+      }
+      &:nth-child(2) a {
+        background: url('images/btn_bk_art2.svg') no-repeat left;
+        background-size: contain;
+        padding: 1.65rem 1.65rem 1.65rem 4.65rem;
+        width: 31.3rem;
+      }
+    }
+    @media (max-width: 320px) {
+      margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 320px) {
+    height: 100vh;
+    .header-banner.col-md-6 {
+      padding-top: 30rem;
+    }
+  }
+}

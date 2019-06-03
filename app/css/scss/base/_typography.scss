@@ -1,0 +1,42 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: inherit;
+	font-style: inherit;
+}
+h1, h2, li, h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+	font-weight: 600;
+	line-height: 5rem;
+	font-size: 3.6rem;
+}
+p{
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}
+
+li {
+	line-height: 2.5rem;
+	margin-bottom: 2.5rem;
+	font-size: 1.8rem;
+}
+
+.month {
+	h3{
+		font-family: "Open Sans";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 7.3vw;
+		line-height: 4vw;
+		letter-spacing: -0.8vw;
+		color: #FFFFFF;
+		opacity: 1.00;
+	}
+	.inside_month{
+		h4{
+			font-weight: bold;
+			font-size: 2.8rem;
+		}
+	}
+}

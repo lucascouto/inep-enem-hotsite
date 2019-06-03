@@ -1,0 +1,28 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group Copy 28</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(312 -8466)" figma:type="canvas">
+<g id="Group Copy 28" figma:type="frame">
+<g id="Shape" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(-312 8466)" fill="#4A4A4A"/>
+</g>
+<g id="Rectangle-path + Shape" figma:type="frame">
+<g id="Rectangle-path" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(-300.364 8472)" fill="#4A4A4A"/>
+</g>
+<g id="Shape" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-303.527 8476.93)" fill="#4A4A4A"/>
+</g>
+</g>
+<g id="Line" figma:type="vector">
+<use xlink:href="#path3_stroke" transform="translate(-304 8482)" fill="#4A4A4A"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 12C 0 18.6182 5.38181 24 12 24C 18.6182 24 24 18.6182 24 12C 24 5.38184 18.6182 0 12 0C 5.38181 0 0 5.38184 0 12ZM 0.727264 12C 0.727264 5.78174 5.7818 0.727051 12 0.727051C 18.2182 0.727051 23.2727 5.78174 23.2727 12C 23.2727 18.2178 18.2182 23.2725 12 23.2725C 5.7818 23.2725 0.727264 18.2178 0.727264 12Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 0.727273 0L 0.727273 8.09091L 0 8.09091L 0 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 3.52727 4.03636L 0 0.509091L 0.509091 0L 3.52727 3.01818L 6.54545 0L 7.05455 0.509091L 3.52727 4.03636Z"/>
+<path id="path3_stroke" d="M 0.5 0L 0 0L 0 1L 0.5 1L 0.5 0ZM 7.57107 1L 8.07107 1L 8.07107 0L 7.57107 0L 7.57107 1ZM 0.5 1L 7.57107 1L 7.57107 5.55112e-17L 0.5 5.55112e-17L 0.5 1Z"/>
+</defs>
+</svg>

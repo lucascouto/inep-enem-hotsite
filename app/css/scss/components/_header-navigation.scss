@@ -1,0 +1,95 @@
+#navigation_row{
+  position: relative;
+  z-index: 5;
+  ul{
+    border-bottom: 1px solid $bottom-line-nav;
+    font-weight: 500;
+    margin-top: 4.3vw;
+    display: flex;
+    justify-content: space-between;  
+    &:before, &:after{
+      display: none;
+      margin-top: 4.3vw; 
+    }
+    li{
+      display: inline;
+      margin-bottom: 0;
+      cursor: pointer;
+      a{
+        color: $color-text-menu;
+        font-weight: normal;
+        text-decoration: none;
+        display: block;
+        font-size: 1.4vw;
+        float: left;
+        height: 7.7vw;
+        width: 11.9vw;
+        padding-top: 5.2vw;
+        margin-top: -1.5vw;
+
+        &:hover, &:focus, &.active {
+          border-bottom: 0.5rem solid $bottom-line-nav-link;
+          border-style: inset;
+          color: $dark-font-color-base;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          font-weight: 600;
+        }
+        //Defining general rules for menu icons
+        & > div{
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 7.7rem;
+          height: 3.95vw;
+          margin-bottom: 1.4rem;
+          margin-top: -2rem;
+
+        }
+        //Inserting images for menu icons
+        &.before_test{
+          background: url(images/before_test_image.svg) no-repeat;
+          &:hover, &:focus, &.active{
+          background: url(images/before_test_image_active.svg) no-repeat;
+          }
+        }
+        &.on_day_test{
+          background: url(images/on_day_test_image.svg) no-repeat;
+          &:hover, &:focus, &.active{
+          background: url(images/on_day_test_image_active.svg) no-repeat;
+          }
+        }
+        &.after_test{
+          background: url(images/after_test_image.svg) no-repeat;
+           &:hover, &:focus &.active{
+          background: url(images/after_test_image_active.svg) no-repeat;
+          }
+        }
+        &.faq{
+          background: url(images/faq_image.svg) no-repeat;
+           &:hover, &:focus, &.active{
+          background: url(images/faq_image_active.svg) no-repeat;
+          }
+        }
+      }
+      &:first-child{
+        padding-left: 0;
+      }
+      &:last-child{
+        padding-right: 0;
+        text-align: right;
+      }
+    }  
+  }
+  &.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: white;
+    z-index: 5;
+  }
+
+    @media (max-width: 320px) {
+      
+    }
+}

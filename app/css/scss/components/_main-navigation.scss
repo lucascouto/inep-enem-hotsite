@@ -1,0 +1,43 @@
+.main-nav {
+  margin: 4.56vw 0 4.3rem 0;
+  &.fixed_menu{
+	top: 147.271px;
+	position: fixed;
+  }
+  li {
+    line-height: 4.2rem;
+    font-size: 1.15vw;
+    margin-bottom: 0;
+    a {
+    	color: $color-text-menu;
+    	padding-left: 0.5rem;
+    }
+  	a:focus, a:hover {
+			font-weight: bold;
+			text-decoration: none;
+		}
+		a:focus {
+			color: $dark-font-color-base;
+			border-left: 0.3rem solid $bottom-line-nav-link;
+		}
+		a:hover {
+			border-left: 0.3rem solid $color-text-menu;
+		}
+    a.button-enem {
+    	margin-top: 5.3rem;
+      border: 0.1rem solid $bottom-line-nav-link;
+      padding: 0.9rem 4.1rem 1rem 4.1rem;
+      border-radius: 5rem;
+      font-size: 1.6rem;
+     	color: $bottom-line-nav-link;
+      display: block;
+      max-width: 24.5rem;
+     	&:hover {
+        color: $light-font-color;
+        text-decoration: none;
+        background-color: $bottom-line-nav-link;
+     	}
+    }
+  }
+}
+
